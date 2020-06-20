@@ -38,7 +38,7 @@ function showSlides() {
   headersSpan[slideIndex-1].style.display = "block";
   paragraphs[slideIndex-1].style.display = "block";
   links[slideIndex-1].style.display = "inline-block";
-  setTimeout(showSlides, 5000); // Change image every 2 seconds
+  setTimeout(showSlides, 8000); // Change image every 2 seconds
 }
 
 
@@ -76,7 +76,7 @@ function showTeamSlides(n) {
   dots[TeamSlideIndex-1].className += " dotsActive";
 }
 
-const navbar = document.querySelector("#toggler");
+var navbar = document.querySelector("#toggler");
 function toggleNavigation(x) {
   x.classList.toggle("change");
   if(navbar.style.display ==="block"){
@@ -84,4 +84,17 @@ function toggleNavigation(x) {
   }else{
      navbar.style.display = "block";
   }
+}
+
+var banner = document.querySelectorAll(".bannerClick");
+var chat = document.querySelector(".chat");
+var li;
+for (li = 0; li < banner.length; li++) {
+  banner[li].addEventListener("click", function() {
+    if(chat.style.display==="block"){
+      chat.style.display="none";
+    }else{
+      chat.style.display="block";
+    }
+  });
 }

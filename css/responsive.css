@@ -27,7 +27,9 @@
     .mobile{
         display: block;
     }
-
+    .clickable{
+        display: block;
+      }
     
   nav img{
     width: 40%;
@@ -213,6 +215,34 @@
     .team > h3, .products > h3{
         font-size: 20px;
     }
+
+ 
+
+  .digitalJourney > div{
+    padding: 20px;
+  }
+  
+  .digitalJourney h1{
+    font-size: 25px;
+  }
+  
+  
+  
+  
+  .aboutAbout .aboutText{
+    width: 90%;
+  }
+  
+  .aboutAbout .aboutText h3{
+    font-size: 20px;
+  }
+  
+  .aboutAbout .aboutText p{
+    font-size: 15px;
+  }
+  
+  
+  
       
 
 }

@@ -9,6 +9,7 @@
 body {
   padding: 0;
   margin: 0;
+  font-family: 'Fira Sans Condensed';
   font-size: 14px;
   line-height: 1.8;
 }
@@ -50,6 +51,7 @@ a:focus {
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   margin:0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -258,6 +260,10 @@ ul{
     animation-name: fade;
     animation-duration: 1.5s;
   }
+
+  .headerCarousel:nth-child(2){
+    background-image: url('../images/cup.png');
+  }
   
   @-webkit-keyframes fade {
     from {opacity: .4}
@@ -283,8 +289,8 @@ ul{
 
   .headerCarousel h1{
     width:100%;
-    font-size: 55px;
-    line-height: 1;
+    font-size: 40px;
+    line-height: 1.5;
     margin: 0px;
     color:white;
     -webkit-animation-name: slidefade;
@@ -292,6 +298,7 @@ ul{
     animation-name: slidefade;
     animation-duration: 1.5s;
     transform:translateX(0);
+    text-transform: capitalize;
   }
 
   .headerCarousel h1 span{
@@ -325,9 +332,9 @@ ul{
 
   .headerCarousel p{
     font-size: 20px;
-    line-height: 1;
+    line-height: 1.5;
     margin: 50px 0;
-    color:#B3B3B3;
+    color:white;
     font-weight: lighter;
   }
 
@@ -385,11 +392,12 @@ ul{
     min-width: 200px;
     background-image: url("../images/Display.jpg");
     overflow: hidden;
-    height: 260px;
+    min-height: 260px;
     background-size: cover;
     position: relative;
     transition: all 0.5s;
     border-radius: 40px 0 40px 0;
+    padding: 20px;
   }
 
   .coreValue div{
@@ -414,7 +422,7 @@ ul{
   }
 
   .coreValue h3{
-    font-size: 25px;
+    font-size: 18px;
     margin:15px 0;
     line-height: 1;
     color:white;
@@ -546,6 +554,7 @@ ul{
 
 .aboutText h3{
   margin:10px 0;
+  text-transform: capitalize;
   color:var(--theme);
 }
 
@@ -829,6 +838,7 @@ ul{
 .serviceText h3{
   font-size: 20px;
   color: var(--theme);
+  text-transform: capitalize;
   margin-bottom: 20px;
 }
 
@@ -837,6 +847,9 @@ ul{
   color:var(--theme);
 }
 
+.serviceText span{
+  text-transform: capitalize;
+}
 .serviceText i{
   margin-right: 20px;
   color:white;
@@ -1246,6 +1259,7 @@ footer a{
 
 .footerBar p{
   color: white;
+  margin-right: 40px;
 }
 
 .footerBar a i{
@@ -1293,6 +1307,11 @@ footer ul li a {
   background: linear-gradient(to right, #33ccccf3, #185f5fea);
   text-align: center;
   height:100%;
+}
+
+.newsletter .linkSlideNew{
+  display: block;
+  margin: 20px auto 10px auto;
 }
 
 .newsletter h1{
@@ -1609,6 +1628,10 @@ footer ul li a {
 .productItem a:hover{
   background:#269999d2;
 }
+
+.products .anime{
+  margin-bottom: 40px;
+}
 .products .anime:hover .productItem{
   margin:10px;
 }
@@ -1619,7 +1642,7 @@ footer ul li a {
 
 .productItem a{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   background:#269999f6;
   width: 100%;
@@ -1833,11 +1856,12 @@ footer ul li a {
   height: 5px;
   background-color: #33cccc;
   margin: 6px 0;
+  overflow: hidden;
   transition: 0.4s;
 }
 
 .clickable{
-  display: block;
+  display: none;
 }
 
 .change .bar1 {
@@ -1888,4 +1912,186 @@ footer ul li a {
     opacity: 1;
     max-height:80vh;
   }
+}
+
+
+
+
+
+/* DIGITAL JOURNEY AND APDE */
+.digitalJourney{
+  background: url("../images/dust.png");
+  overflow:hidden;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 40px 0;
+  height:300px;
+  clip-path: polygon(50% 10%, 100% 0, 100% 100%, 50% 90%, 0 100%, 0 0);
+}
+.apde div{
+  background: linear-gradient(40deg,  #114242e1,  #124646 ) !important;
+}
+
+.digitalJourney div{
+  height:100%;
+  width:100%;
+  background: linear-gradient(40deg,  #269999f1,  #269999fb );
+}
+
+.digitalJourney h1{
+  color:white;
+  text-align: center;
+  line-height: 1.2;
+  font-size: 40px;
+}
+
+.digitalJourney a{
+  font-size: 20px;
+  width: 50%;
+  min-width: 150px;
+  margin: 40px 0 20px 0;
+  text-align: center;
+}
+
+/* BANNER */
+
+.banner{
+  position: fixed;
+  bottom: 0;
+  right:0;
+  background-color: black;
+  color:white;
+  width: 200px;
+  height: 40px;
+  padding: 0 20px;
+  cursor: pointer;
+  z-index: 900;
+  box-shadow: 0 0 10px 5px rgba(179, 179, 179, 0.8);
+  border-radius: 20px 0 0 0;
+}
+
+.banner p, .chat p{
+  color:white;
+  text-transform: capitalize;
+  padding: 0;
+}
+
+.chat{
+  min-height: 80vh;
+  position: fixed;
+  overflow:auto;
+  width: 350px;
+  right:0;
+  bottom: 0;
+  background-color: #33CCCC;
+  z-index: 999;
+  border-radius: 20px 0 0 0;
+  display: none;
+  -webkit-animation-name: mySlideUp;
+  -webkit-animation-duration: 0.5s;
+  animation-name: mySlideUp;
+  animation-duration: 0.5s;
+}
+
+@-webkit-keyframes mySlideUp {
+  from {
+    min-height:0;
+  }
+  to {
+    min-height:80vh;
+  }
+}
+
+@keyframes mySlideUp {
+  from {
+    min-height:0;
+  }
+  to {
+    min-height:80vh;
+  }
+}
+.chat div{
+  background-color: #269999;
+  padding:0 0 0 20px;
+  color:white;
+}
+
+.chat i:last-child{
+  cursor: pointer;
+  display: block;
+  height: 52px;
+  width: 52px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ########################################
+##########################################
+######################################
+ABOUT PAGE
+########################################
+##########################################
+######################################*/
+
+
+
+.aboutHeader{
+  min-height: 60vh;
+  position: relative;
+  background: url("../images/dust.png");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.aboutHeader > div{
+  background:#269999f8;
+  position: absolute;
+  top:0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.aboutHeader h1{
+  color:white;
+  font-size: 50px;
+  margin:0;
+}
+
+.aboutHeader a{
+  color:rgb(230, 230, 230);
+  font-size: 20px;
+}
+
+.aboutHeader a:first-child{
+  margin-right: 5px;
+}
+
+.aboutHeader a:hover{
+  color: var(--theme);
+}
+
+.aboutAbout{
+  position: relative;
+  bottom: 80px;
+}
+
+.aboutAbout .aboutText{
+  width: 80%;
+  text-align: center;
+  margin:auto;
+  background-color: white;
+  padding: 20px;
+}
+
+.aboutAbout .aboutText h3{
+  text-align: center;
+  font-size: 25px;
+}
+
+.aboutAbout .aboutText p{
+  text-align: justify;
+  font-size: 17px;
 }
