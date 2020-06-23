@@ -1,73 +1,73 @@
 @media only screen and (max-width: 1040px) {
-    .headerCarousel h1, .headerCarousel p{
-        text-align: center;
-        padding: 0 20px;
-    }
+  .headerCarousel h1, .headerCarousel p{
+      text-align: center;
+      padding: 0 20px;
+  }
 
-    .headerCarousel > div{
-        padding: 100px 20px;
-    }
+  .headerCarousel > div{
+      padding: 100px 20px;
+  }
 
-    .headerCarousel >div > div{
-        width:100%;
-        text-align: center;
-    }
+  .headerCarousel >div > div{
+      width:100%;
+      text-align: center;
+  }
 
-    .coreValues{
-        padding: 0 20px;
-      }
+  .coreValues{
+      padding: 0 20px;
+    }
 }
 
 @media only screen and (max-width: 990px) {
 
-    .web{
-        display: none;
-    }
+  .web{
+      display: none;
+  }
 
-    .mobile{
-        display: block;
+  .mobile{
+      display: block;
+  }
+  .clickable{
+      display: block;
     }
-    .clickable{
-        display: block;
-      }
-    
-  nav img{
-    width: 40%;
+  
+nav img{
+  width: 40%;
 }
-    .about{
-        padding: 0 20px;
-      }
-
-    .about > div{
-        width:100%;
-        margin: 20px 0;
+  .about{
+      padding: 0 20px;
     }
 
-    .aboutImage img{
-        width: 60%;
-        margin:auto;
-        display: block;
-      }
+  .about > div{
+      width:100%;
+      margin: 20px 0;
+  }
 
-      .aboutText h3{
-        text-align: center;
-      }
-
-    .aboutIcons{
-        justify-content: center !important;
+  .aboutImage img{
+      width: 60%;
+      margin:auto;
+      display: block;
     }
 
-    .aboutText p{
-        text-align: center;
+    .aboutText h3{
+      text-align: center;
     }
 
-    .aboutText{
-        text-align: center;
-    }
+  .aboutIcons{
+      justify-content: center !important;
+  }
 
-    footer{
-        clip-path: polygon(51% 10%, 100% 0, 100% 100%, 0 100%, 0 0);
-    }
+  .aboutText p{
+      text-align: center;
+  }
+
+  .aboutText{
+      text-align: center;
+  }
+
+  footer{
+      clip-path: polygon(51% 10%, 100% 0, 100% 100%, 0 100%, 0 0);
+  }
 }
 
 
@@ -76,94 +76,109 @@
 
 @media only screen and (max-width: 900px) {
 
-    .coreValues{
-        bottom: 0;
-        margin-top: 40px;
-        justify-content: center !important;
-        flex-wrap: wrap !important;
-    }
+  .pricingList{
+    justify-content: space-around !important;
+  }
 
-    .coreValue{
-        width:60%;
-        margin: 20px 0;
-    }
+  .pricingCard{
+    width:100%;
+  }
+  .coreValues{
+      bottom: 0;
+      margin-top: 40px;
+      justify-content: center !important;
+      flex-wrap: wrap !important;
+  }
 
-    .linkBar a{
-        padding:10px;
-        text-align: center;
-    }
-    .serviceArticle > div{
-        width: 100%;
-        margin: 20px 0;
-    }
+  .coreValue{
+      width:60%;
+      margin: 20px 0;
+  }
 
-    .serviceVideo img{
-        width: 100%;
-        height: 300px;
-    }
+  .linkBar a{
+      padding:10px;
+      text-align: center;
+  }
+  .serviceArticle > div{
+      width: 100%;
+      margin: 20px 0;
+  }
 
-    .feedback .picfil h1{
-        font-size: 50px;
-      }
-      
+  .serviceVideo img{
+      width: 100%;
+      height: 300px;
+  }
+
+  .feedback .picfil h1{
+      font-size: 50px;
+    }
+    
 }
 
 @media only screen and (max-width: 850px) {
-    .headerCarousel h1{
-        font-size: 35px;
-    }
-    .faq{
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .faq > div{
-        width: 100%;
-        margin: 20px 0;
-    }
-    .newsletter h1{
-        font-size: 30px;
-    }
+  .headerCarousel h1{
+      font-size: 35px;
+  }
+  .faq{
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+  .faq > div{
+      width: 100%;
+      margin: 20px 0;
+  }
+  .newsletter h1{
+      font-size: 30px;
+  }
+
+  footer > div:last-child{
+    padding-bottom: 40px;
+  }
 }
 
 @media only screen and (max-width: 800px) {
-    footer > div{
-        padding: 20px;
-        justify-content: center;
-        flex-wrap: wrap !important;
+  footer > div{
+      padding: 20px;
+      justify-content: center;
+      flex-wrap: wrap !important;
+  }
+  .footerAbout{
+      min-width: 100% !important;
+  }
+  .blogItem{
+      width: 48%;
+     min-width: 48%;  
+   }
+   .newsletter input{
+      width: 60%;
     }
-    .footerAbout{
-        min-width: 100% !important;
-    }
-    .blogItem{
-        width: 48%;
-       min-width: 48%;  
-     }
-     .newsletter input{
-        width: 60%;
-      }
 
 }
 
 @media only screen and (max-width: 750px) {
-    .feedback .trans{
-        justify-content: center;
-        flex-wrap: wrap;
-        padding: 80px 0 10px 0;
+  .feedback .trans{
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 80px 0 10px 0;
+  }
+
+  .feedback .clientArea{
+      width: 100%;
+      margin: 20px 0;
+  }
+
+  .feedback .picfil{
+      width: 100%;
+  }
+
+  .feedback .picfil h1{
+      line-height: 1;
     }
 
-    .feedback .clientArea{
-        width: 100%;
-        margin: 20px 0;
+    .blogBlogsItem{
+      min-width:48% !important;
     }
-
-    .feedback .picfil{
-        width: 100%;
-    }
-
-    .feedback .picfil h1{
-        line-height: 1;
-      }
-      
+    
 
 }
 
@@ -171,244 +186,276 @@
 @media only screen and (max-width: 700px) {
 
 .team .linkSlideNew{
-    width: 70%;
-  }
+  width: 70%;
+}
 
 }
-  
+
 
 @media only screen and (max-width: 650px) {
-    .productItem{
-        width:100%;
-      }
-
-      .blogItem, .member{
-          min-width:90% !important;
-          width:90% !important;
-      }
-
-      .blogItem{
-        min-width:100% !important;
-        width:100% !important;
+  .productItem{
+      width:100%;
+    }
+    .contactGrid a{
+      width:100%;
+      margin: 20px 0;
     }
 
-    .aboutIcons div{
-        margin: 0 20px;
-      }
-
-      .linkBar a{
-        width: 100%;
-        margin: 20px 0;
-      }
-
-      .faq > div > h1, .faq h3{
-          text-align: center;
-      }
-      .faq > div > h1{
-        font-size:20px;
+    .blogItem, .member{
+        min-width:90% !important;
+        width:90% !important;
     }
 
-    .team .linkSlideNew{
-        width:100%;
+    .blogItem{
+      min-width:100% !important;
+      width:100% !important;
+  }
+
+  /* .servicesServices > div{
+    justify-content: space-around !important;
+  } */
+
+  .servicesServicesItem{
+    width:48%;
+  }
+  
+
+  .aboutIcons div{
+      margin: 0 20px;
     }
 
-    .team > h3, .products > h3{
-        font-size: 20px;
+    .linkBar a{
+      width: 100%;
+      margin: 20px 0;
     }
 
- 
+    .faq > div > h1, .faq h3{
+        text-align: center;
+    }
+    .faq > div > h1{
+      font-size:20px;
+  }
 
-  .digitalJourney > div{
-    padding: 20px;
+  .team .linkSlideNew{
+      width:100%;
   }
-  
-  .digitalJourney h1{
-    font-size: 25px;
+
+  .team > h3, .products > h3{
+      font-size: 20px;
   }
-  
-  
-  
-  
-  .aboutAbout .aboutText{
-    width: 90%;
-  }
-  
-  .aboutAbout .aboutText h3{
-    font-size: 20px;
-  }
-  
-  .aboutAbout .aboutText p{
-    font-size: 15px;
-  }
-  
-  
-  
-      
+
+
+
+.digitalJourney > div{
+  padding: 20px;
+}
+
+.digitalJourney h1{
+  font-size: 25px;
+}
+
+
+
+
+.aboutAbout .aboutText{
+  width: 90%;
+}
+
+.aboutAbout .aboutText h3{
+  font-size: 20px;
+}
+
+.aboutAbout .aboutText p{
+  font-size: 15px;
+}
+
+.blogBlogsItem{
+  min-width:100% !important;
+}
+
+
+
+    
 
 }
 
 @media only screen and (max-width: 550px) {
-    .footer ul{
-        min-width: 100% !important;
-        margin: 0 20px !important;
+  .footer ul{
+      min-width: 100% !important;
+      margin: 0 20px !important;
+  }
+
+  .footer > div:first-child{
+      justify-content: center;
+      flex-wrap: wrap;
+      flex-direction: column ;
+  }
+
+  .newsletter h1{
+      font-size: 15px ;
+  }
+
+  footer{
+      clip-path: polygon(51% 5%, 100% 0, 100% 100%, 0 100%, 0 0);
+  }
+
+  .newsletter{
+      height: 200px;
+      margin-bottom: -100px;
+  }
+
+  .newsletter input{
+      padding:10px;
+      width: 50%;
+    }
+    
+    .newsletter input[type=submit]{
+      width: 30%;
     }
 
-    .footer > div:first-child{
-        justify-content: center;
-        flex-wrap: wrap;
-        flex-direction: column ;
+    .headerCarousel h1{
+        font-size: 25px;
     }
-
-    .newsletter h1{
-        font-size: 15px ;
-    }
-
-    footer{
-        clip-path: polygon(51% 5%, 100% 0, 100% 100%, 0 100%, 0 0);
-    }
-
-    .newsletter{
-        height: 200px;
-        margin-bottom: -100px;
-    }
-
-    .newsletter input{
-        padding:10px;
-        width: 50%;
-      }
-      
-      .newsletter input[type=submit]{
-        width: 30%;
-      }
-
-      .headerCarousel h1{
-          font-size: 25px;
-      }
 
 }
 
 @media only screen and (max-width: 500px) {
-    .blogItem{
-        min-width: 60%;
+  .blogItem{
+      min-width: 60%;
+  }
+  .coreValue{
+      width:80%;
+      margin: 20px 0;
+  }
+  .aboutText h1:before, .aboutText h1:after{
+      width: 25%;
     }
-    .coreValue{
-        width:80%;
-        margin: 20px 0;
-    }
-    .aboutText h1:before, .aboutText h1:after{
-        width: 25%;
-      }
-      
-    
         
-      .products h1:before, .products h1:after{
-        width: 25%;
-      }
-    
-      .team h1:before, .team h1:after{
-        width: 25%;
-      }
+    .products h1:before, .products h1:after{
+      width: 25%;
+    }
+  
+    .team h1:before, .team h1:after{
+      width: 25%;
+    }
 
-      .blog h1:before, .blog h1:after{
-        width: 25%;
-      }
-        
+    .blog h1:before, .blog h1:after{
+      width: 25%;
+    }
+    .servicesServicesItem{
+      width:100%;
+    }
+
+    .productsProducts h3{
+      font-size: 20px !important;
+    }
+      
 }
 
 @media only screen and (max-width: 400px) {
-    .blogItem{
-        min-width: 80%;
-    }
-    .clientFeedback{
-        width: 100%;
-    }
+  .blogItem{
+      min-width: 80%;
+  }
+  .clientFeedback{
+      width: 100%;
+  }
 
-    .feedback .picfil h1{
-        font-size: 25px;
-      }
+  .feedback .picfil h1{
+      font-size: 25px;
+    }
 }
 
 @media only screen and (max-width: 350px) {
-    footer{
-        clip-path: polygon(51% 0%, 100% 0, 100% 100%, 0 100%, 0 0);
-        padding-top: 80px;
-    }
-    .coreValue{
-        width:100%;
-        margin: 20px 0;
-    }
-
-    .aboutIcons div{
-        margin: 0 20px;
-        text-align: center;
-    }
-
-    .team .linkSlideNew{
-        width: 100%;
-      }
-
-      .newsletter h1{
-          font-size: 15px;
-      }
-
-      .newsletter{
-          padding:10px;
-          width: 100%;
-      }
-
-      .newsletter input{
-        font-size: 12px;
-        padding: 10px 5px;
-      }
-
-      .questions li h1{
-        font-size: 15px;
-      }
-
-      .accordionNull{
-        width: 60px;
-      }
-
-      .questions > h1{
-        font-size: 20px;
-      }
-
-      .form h3{
-        font-size: 20px;
-      }
-      
-      .blogItem{
-          min-width: 90%;
-      }
-      .member{
-        min-width: 220px;
-      }
-
-      
-.aboutText h1{
-    text-transform: uppercase;
-    font-size: 20px;
+  footer{
+      clip-path: polygon(51% 0%, 100% 0, 100% 100%, 0 100%, 0 0);
+      padding-top: 80px;
+  }
+  .aboutHeader h1{
+    font-size: 30px !important;
     text-align: center;
-    position: relative;
   }
 
-  .aboutText h1:before, .aboutText h1:after{
-    width: 15%;
+  .aboutHeader a{
+    font-size: 15px !important;
+    text-align: center;
   }
-  
+
+  .coreValue{
+      width:100%;
+      margin: 20px 0;
+  }
+
+  .aboutIcons div{
+      margin: 0 20px;
+      text-align: center;
+  }
+
+  .team .linkSlideNew{
+      width: 100%;
+    }
+
+    .newsletter h1{
+        font-size: 15px;
+    }
+
+    .newsletter{
+        padding:10px;
+        width: 100%;
+    }
+
+    .newsletter input{
+      font-size: 12px;
+      padding: 10px 5px;
+    }
+
+    .questions li h1{
+      font-size: 15px;
+    }
+
+    .accordionNull{
+      width: 60px;
+    }
+
+    .questions > h1{
+      font-size: 20px;
+    }
+
+    .form h3{
+      font-size: 20px;
+    }
+    
+    .blogItem{
+        min-width: 90%;
+    }
+    .member{
+      min-width: 220px;
+    }
 
     
-  .products h1:before, .products h1:after{
-    width: 15%;
-  }
+.aboutText h1{
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+}
 
-  .team h1:before, .team h1:after{
-    width: 15%;
-  }
+.aboutText h1:before, .aboutText h1:after{
+  width: 15%;
+}
 
-  .blog h1:before, .blog h1:after{
-    width: 15%;
-  }
+
   
-  
+.products h1:before, .products h1:after{
+  width: 15%;
+}
+
+.team h1:before, .team h1:after{
+  width: 15%;
+}
+
+.blog h1:before, .blog h1:after{
+  width: 15%;
+}
+
+
 }

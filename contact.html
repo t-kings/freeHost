@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+		<title>The First Founders | About</title>
+		<link rel="icon" type="image/png" href="./images/mark1.png" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<link href='https://fonts.googleapis.com/css?family=Fira Sans Condensed' rel='stylesheet'>
+		<link rel="stylesheet" href="./css/responsive.css" />
+		<link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" />
+		<script src="https://kit.fontawesome.com/3f3b675d2b.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+
+
+	<!-- WEB NAVIGATION -->
+    <nav class="flex row between middle">
+		<img src="./images/Landscape.png" alt="First Founders" />
+		<ul class="flex row between middle web">
+			<li>
+				<a href="/" class="flex column center middle">Home</a>
+			</li>
+			<li>
+				<a href="/about">About Us</a>
+			</li>
+			<li>
+				<a href="/services">Services</a>
+			</li>
+			<li>
+				<a href="/products">Products</a>
+			</li>
+			<li>
+				<a href="/pricing">Pricing</a>
+			</li>
+			<li>
+				<a href="/blog">Blog</a>
+			</li>
+			<li>
+				<a href="/contact">Contact Us</a>
+			</li>
+		</ul>
+
+		<a href="/join" class="linkSlide web">Get Started</a>
+
+		<a href="Javascript:void(0)" class="mobile clickable" onclick="toggleNavigation(this)">
+			<div class="bar1">.</div>
+			<div class="bar2">.</div>
+			<div class="bar3">.</div>
+		</a>
+
+		<div class="navigationMobile" id="toggler">
+			<ul class="flex column flexStart">
+				<li>
+					<a href="/">Home</a>
+				</li>
+				<li>
+					<a href="/about">About Us</a>
+				</li>
+				<li>
+					<a href="/services">Services</a>
+				</li>
+				<li>
+					<a href="/products">Products</a>
+				</li>
+				<li>
+					<a href="/pricing">Pricing</a>
+				</li>
+				<li>
+					<a href="/blog">Blog</a>
+				</li>
+				<li>
+					<a href="/contact">Contact Us</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	
+
+
+
+
+		<!-- HEADER AND CAROUSEL -->
+		<header class="aboutHeader">
+			<div class="flex column center middle">
+				<div class="flex center column middle">
+					<div>
+						<h1>Contact Us</h1>
+						<div class="flex row nowrap center middle">
+							<a href="/">Home</a> 
+                            <i class="fas fa-circle"></i>
+							<a href="/about" class="present">Contact</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+
+
+
+
+
+		<!-- ABOUT -->
+
+		<section class="aboutAbout">
+			<div class="contactGrid flex row wrap between stretch">
+                <a href="/">
+                    <i class="fas fa-map-marker-alt"></i> 
+                    <h4>Address</h4>
+                    <p>1B, Harvey Road, Yaba, Lagos<br />Nigeria</p>
+                </a>
+                <a href="tel:+2348035776246">
+                    <i class="fas fa-phone-alt"></i> 
+                    <h4>Phone</h4>
+                    <p>+234 803 577 6246</p>
+                </a>
+                <a href = "mailto:hello@thefirstfounders.com">
+                    <i class="fas fa-envelope"></i>
+                    <h4>Email</h4>
+                    <p>hello@thefirstfounders.com</p>
+                </a>
+			</div>
+        </section>
+        <iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=500&amp;height=200&amp;hl=en&amp;q=1B,%20Harvey%20Road%20Yaba+(Our%20Location)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://www.embedmap.net/'>google map embed</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=4c1610e4fe3ecea878011614c49ba850d19067cb'></script>
+	
+        <section class="digitalJourney">
+            <div class="flex center column middle">
+                <h1>Start Your Digital Enterprise Journey Here</h1> 
+                <a href="/plans" class="linkSlideNew">See Offers</a>
+            </div>
+        </section>
+        
+		<!-- FAQ -->
+		<section class="faq flex between row middle">
+			<div class="form">
+				<div class="trans">
+					<h3>We Love to hear from you</h3>
+					<p>Feel free and share with us. We will get you</p>
+					<form action="">
+						<input type="text" placeholder="Name" required />
+						<input type="email" placeholder="Email" required />
+						<input type="text" placeholder="Subject" required />
+						<textarea name="" id="" cols="30" rows="6" placeholder="Message"></textarea>
+						<input type="submit" value="Send Message" />
+					</form>
+				</div>
+			</div>
+			<div class="questions">
+				<h3>FAQ</h3>
+				<h1>Frequently Asked Questions</h1>
+				<ul>
+					<li>
+						<div class="accordion flex row nowrap flexStart stretch">
+							<div class="accordionNull">  
+								<i class="fas fa-arrow-right"></i>
+							</div>
+							<h1>Lorem, ipsum dolor sit amet consectetur</h1>
+						</div>
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde repellat maxime, dolor voluptate ipsa perspiciatis totam laboriosam rerum minus quibusdam, qui non quidem expedita, fuga aliquid voluptatum accusantium nulla temporibus?</p>
+					</li>
+					<li>
+						<div class="accordion flex row nowrap flexStart stretch">
+							<div class="accordionNull">  
+								<i class="fas fa-arrow-right"></i>
+							</div>
+							<h1>Lorem, ipsum dolor sit amet consectetur</h1>
+						</div>
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde repellat maxime, dolor voluptate ipsa perspiciatis totam laboriosam rerum minus quibusdam, qui non quidem expedita, fuga aliquid voluptatum accusantium nulla temporibus?</p>
+					</li>
+					<li>
+						<div class="accordion flex row nowrap flexStart stretch">
+							<div class="accordionNull">  
+								<i class="fas fa-arrow-right"></i>
+							</div>
+							<h1>Lorem, ipsum dolor sit amet consectetur</h1>
+						</div>
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde repellat maxime, dolor voluptate ipsa perspiciatis totam laboriosam rerum minus quibusdam, qui non quidem expedita, fuga aliquid voluptatum accusantium nulla temporibus?</p>
+					</li>
+					<li>
+						<div class="accordion flex row nowrap flexStart stretch">
+							<div class="accordionNull">  
+								<i class="fas fa-arrow-right"></i>
+							</div>
+							<h1>Lorem, ipsum dolor sit amet consectetur</h1>
+						</div>
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde repellat maxime, dolor voluptate ipsa perspiciatis totam laboriosam rerum minus quibusdam, qui non quidem expedita, fuga aliquid voluptatum accusantium nulla temporibus?</p>
+					</li>
+					<li>
+						<div class="accordion flex row nowrap flexStart stretch">
+							<div class="accordionNull">  
+								<i class="fas fa-arrow-right"></i>
+							</div>
+							<h1>Lorem, ipsum dolor sit amet consectetur</h1>
+						</div>
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde repellat maxime, dolor voluptate ipsa perspiciatis totam laboriosam rerum minus quibusdam, qui non quidem expedita, fuga aliquid voluptatum accusantium nulla temporibus?</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+
+	<!-- NEWSLETTER -->
+<section class="newsletter">
+    <div class="trans flex center column">
+        <h1>Subscribe To our newsletter</h1> 
+        <form action="">
+            <input type="email" placeholder="Enter Your Email" />
+            <input type="submit" value="Subscribe" />
+        </form>
+            <a href="/ebook" class="linkSlideNew">Download Ebook</a>
+    </div>
+</section>
+
+
+
+		<!-- FOOTER -->
+		<footer>
+			<div class="flex row between wrap">
+				<ul class="footerAbout">
+					<li>
+						<img src="./images/mark1.png" alt="First Founders" />
+					</li>
+					<li>
+						<p>
+							We help envision and build better products and experiences, developing go-to-market approaches and inventing 
+							disruptive new business models—all to generate new growth, meaningful differentiation, and real economic 
+							value. Our core focus in leading digital transformation cuts across people, processes and technology. 
+						</p>
+					</li>
+					<li>
+						<a href="/"><i class="fas fa-map-marker-alt"></i> 1B, Harvey Road, Yaba, Lagos, Nigeria.</a>
+					</li>
+					<li>
+						<a href="tel:+2348035776246"><i class="fas fa-phone-alt"></i> +234 803 577 6246</a>
+					</li>
+					<li>
+						<a href = "mailto:hello@thefirstfounders.com"><i class="fas fa-envelope"></i>  hello@thefirstfounders.com</a>
+					</li>
+				</ul>
+
+				<ul>
+					<li>
+						<h1>Company</h1>
+					</li>
+					<li>
+						<a href="/about">About Us</a>
+					</li>
+					<li>
+						<a href="/services">Services</a>
+					</li>
+					<li>
+						<a href="/products">Products</a>
+					</li>
+					<li>
+						<a href="/team">Our Team</a>
+					</li>
+					<li>
+						<a href="/terms">Terms & Conditions</a>
+					</li>
+					<li>
+						<a href="/policy">Privacy Policy</a>
+					</li>
+					<li>
+						<a href="/faq">FAQs</a>
+					</li>
+					<li>
+						<a href="/contact">Contact Us</a>
+					</li>
+					<li>
+						<a href="/blog">News</a>
+					</li>
+					<li>
+						<a href="/ebook">Download Ebook</a>
+					</li>
+				</ul>
+
+				<ul>
+					<li>
+						<h1>Products & Services</h1>
+					</li>
+					<li>
+						<a href="/about">The Founders Class</a>
+					</li>
+					<li>
+						<a href="/about">Business Growth</a>
+					</li>
+					<li>
+						<a href="/about">Med247Live</a>
+					</li>
+					<li>
+						<a href="/about">Mentoring Africa</a>
+					</li>
+					<li>
+						<a href="/about">Consulting</a>
+					</li>
+					<li>
+						<a href="/about">Strategy</a>
+					</li>
+					<li>
+						<a href="/about">Digital Branding</a>
+					</li>
+				</ul>
+
+				<ul class="socialMediaPosts">
+					<li>
+						<h1>Social Media Posts</h1>
+					</li>
+					<li>
+						<a href="/about"></a>
+					</li>
+					<li>
+						<a href="/about">Products & Services</a>
+					</li>
+					<li>
+						<a href="/about">Our Team</a>
+					</li>
+					<li>
+						<a href="/about">Terms & Conditions</a>
+					</li>
+					<li>
+						<a href="/about">Privacy Policy</a>
+					</li>
+					<li>
+						<a href="/about">FAQs</a>
+					</li>
+					<li>
+						<a href="/about">Contact Us</a>
+					</li>
+					<li>
+						<a href="/about">News</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footerBar flex row center wrap middle">
+				<p>
+					Copyright &copy; FirstFounder Inc. All Rights Reserved
+				</p>
+				<div class="flex between row around">
+					<a href="/facebook"> <i class="fab fa-facebook-f"></i> </a>
+					<a href="/facebook"> <i class="fab fa-instagram"></i> </a>
+					<a href="/facebook"> <i class="fab fa-twitter"></i> </a>
+					<a href="/facebook"> <i class="fab fa-linkedin-in"></i> </a>
+				</div>
+			</div>
+		</footer>
+		<div class="banner bannerClick flex row nowrap between middle">
+			<i class="fas fa-headset"></i> <p>talk to digital strategist</p>
+		</div>
+		<div class="chat">
+			<div class="flex row nowrap between middle">
+				<i class="fas fa-headset"></i> 
+				<p>talk to digital strategist</p> 
+				<div class="bannerClick">
+					<i class="fas fa-power-off"></i>
+				</div>
+			</div>
+		</div>
+		<script src="./js/script.js"></script>
+		<script>
+			var banner = document.querySelectorAll(".bannerClick");
+			var chat = document.querySelector(".chat");
+			var li;
+			for (li = 0; li < banner.length; li++) {
+				banner[li].addEventListener("click", function() {
+					if(chat.style.display==="block"){
+					chat.style.display="none";
+					}else{
+					chat.style.display="block";
+					}
+				});
+			}
+
+			var navbar = document.querySelector("#toggler");
+			function toggleNavigation(x) {
+				x.classList.toggle("change");
+				if(navbar.style.display ==="block"){
+					navbar.style.display = "none"
+				}else{
+					navbar.style.display = "block";
+				}
+			}
+
+			
+			var TeamSlideIndex = 1;
+			showTeamSlides(TeamSlideIndex);
+
+			// Thumbnail image controls
+			function currentSlide(n) {
+				showTeamSlides(TeamSlideIndex = n);
+			}
+
+			function showTeamSlides(n) {
+			var i;
+			var clientImage = document.querySelectorAll(".clientImage img");
+			var clientName = document.querySelectorAll(".clientName h3");
+			var clientTitle = document.querySelectorAll(".clientTitle h6");
+			var clientMessage = document.querySelectorAll(".clientMessage p");
+			var dots = document.getElementsByClassName("dot");
+			if (n > clientImage.length) {TeamSlideIndex = 1}
+			if (n < 1) {TeamSlideIndex = clientImage.length}
+			for (i = 0; i < clientImage.length; i++) {
+				clientImage[i].style.display = "none";
+				clientName[i].style.display = "none";
+				clientTitle[i].style.display = "none";
+				clientMessage[i].style.display = "none";
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" dotsActive", "");
+			}
+			clientImage[TeamSlideIndex-1].style.display = "block";
+			clientName[TeamSlideIndex-1].style.display = "block";
+			clientTitle[TeamSlideIndex-1].style.display = "block";
+			clientMessage[TeamSlideIndex-1].style.display = "block";
+			dots[TeamSlideIndex-1].className += " dotsActive";
+			}
+		</script>
+	</body>
+</html>
